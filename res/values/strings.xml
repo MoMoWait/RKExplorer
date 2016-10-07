@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, Explorer!</string>
+    <string name="app_name">FileExplorer</string>
+    
+    <string name="str_home">Home</string>
+    <string name="str_level_up">LevelUp</string>
+    <string name="str_multi_choice">Multi</string>
+    <string name="str_editor">Editor</string>
+    <string name="str_search">Search</string>
+    <string name="str_folder_back">Back</string>
+    <string name="str_folder_next">Next</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_switch_windows">Switch</string>
+    <string name="str_sort">Sort</string>
+    <string name="str_settings">Setting</string>
+    <string name="str_folder">folder</string>
+    
+    <string name="edit_copy">Copy</string>
+    <string name="edit_delete">Delete</string>
+    <string name="edit_move">Move</string>
+    <string name="edit_paste">Paste</string>
+    <string name="edit_rename">Rename</string>
+    <string name="edit_share">Share</string>
+    
+    <string name="str_del">delete</string>
+    <string name="str_sure_del">Confirm deletion</string>
+    <string name="str_sure_del_ask">Are you sure delete?</string>
+    
+    <string name="str_cancel">Cancel</string>
+    <string name="str_OK">OK</string>
+    
+    <!-- rename -->
+    <string name="str_rename_notice">Attention!</string>
+    <string name="str_rename_file_exist">The file name is exist，do you want to cover?</string>
+    
+    <!-- copying dialog -->
+    <string name="str_copyingtitle">Please wait a moment.</string>
+	<string name="str_copyingcontext">Copying...</string>
+	<string name="str_copystop">Stop Copy</string>
+	<string name="str_source">Source: </string>
+    <string name="str_target">Target: </string>
+
+    <string name="str_delcontext">Deleting...</string>   
+ 
+    <!-- copy error -->
+    <string name="err_target_same">Cann\'t copy the file to the same path!</string>
+    <string name="err_target_child">The target path is error!</string>
+    
+    <!-- copy recover dialog -->
+	<string name="copy_revocer_text">  is exist, are you sure to recover?</string>
+    <string name="copy_revocer_yes">Recover</string>
+    <string name="copy_revocer_no">Cancel</string>
+    
+    <!-- opening dialog -->
+    <string name="str_openingtitle">Please wait...</string>
+	<string name="str_openingcontext">Opening...</string>
+	<string name="str_openstop">Opening stopped</string>
+    
+    <string name="str_rename_text">Rename to:</string>
+    
+    <string name="str_menu_app_manage">Manage applications</string>
+    
+    <string name="str_sdcard_umount">SD Card has been unmounted</string>
+
+    <string name="str_flash_umount">Internal Flash has been unmounted</string>
+    
+    <string name="str_usb1_umount">USB has been unmounted</string>
+    
+    <string name="str_flash_name">Internal Flash</string>
+    
+    <string name="str_usb1_name">USB</string>
+    
+    <string name="str_sdcard_name">SD Card</string>
+    <string name="current_path">Path:</string>
+    <string name="msg_info">[MENU] More Operations </string>
+    
+    <string name="rename_error">File name contains special characters, the file name is not being modified</string>
+    <string name="rename_fail">File rename fail</string>
+    <string name="err_not_free_space">There is not enough space!</string>
+    <string name="error_invalid_path">Invalid Path</string>
+    <string name="str_isplaymusic">"Playing music, can not delete music files! \n Please pause music then be removed."</string>    
+	<string name="filename">Name：</string>
+	<string name="filesize">Size：</string>
+	<string name="fileauthority ">Permision：</string>
+	<string name="filemime">Type：</string>
+	<string name="fileposition">Path：</string>
+	<string name="filetime">Modify time：</string>
+	<string name="filedetails">Description</string>
+	<string name="fileconfrim">OK</string>
+
+    <string name="noapp">There is no application can open this file!</string>
+    
+    <!-- xwf -->
+    <string name="str_dlna_name">UPnP</string>
+    <string name="disconn_dlna_service">DisConnect UPnP Service</string>
+    <string name="dlna_device_searching">Searching Device...</string>
+    <string name="dlna_search_title">Prompt</string>
+    <string name="dlna_search_msg">Device has not found，retry?</string>
+    <string name="dlna_first_img">Is the first picture</string>
+    <string name="dlna_last_img">Is the last picture</string>
+
+    <string name="str_sata_name">SATA</string>
+	<string name="str_sata_not_mouted">SATA is not mounted</string>
+	<!-- for smb -->
+	
+	<string name="str_smb_name">NetHood</string>
+	<string name="str_smbmountpoint_name">Windows Share</string>
+	<string name="str_menu_cifs_manager">Cifsmanager</string>
+	<string name="newSmb">Add a Windows share by Menu->Cifsmanager</string>
+	
+	<string name="write_error">Write Permission Denied</string>
+	<string name="read_error">Read Error</string>
+	<string name="smb_read_denied">Please Check this Sharefile is Readable or Exist?</string>
+	<string name="read_denied">Please Check this file is Readable or Exist?</string> 
+	<string name="smb_mountpoint_error">Remote Share Server not available</string>
+	<string name="smb_host_error">The host:<xliff:g id="IP">%1$s</xliff:g> can\'t reach</string>
+	<string name="network_error">Network is not available</string>
+	
+	<string name="smb_mount_point"><xliff:g id="HOST">%1$s</xliff:g>@<xliff:g id="FILE">%2$s</xliff:g></string>
+	
+	<string name="newOrscan">New</string>
+	<string name="newsmb">New</string>
+	<string name="scansmb">Scan</string>
+	<string name="scanningSmbTitle">Scanning....</string>
+	<string name="scanningSmbMessage">Scanning Smb Server....</string>
+	
+	<string name="smb_edit_title">Operation</string>
+	<string name="smb_mount">Mount</string>
+	<string name="smb_umount">Umount</string>
+	<string name="smb_mounting">Mounting,Please wait...</string>
+	
+	<string name="smb_search">Search</string>
+	<string name="smb_new">New</string>
+	<string name="smb_edit">Edit</string>
+	<string name="smb_delete">Delete</string>
+	
+	<string name="login_fail_title">Login failure</string>
+    <string name="relogin_confirm_message">Try new user name/password?</string>
+    <string name="relogin_title">Relogin</string>
+    <string name="openning">Openning,Please wait......</string>
+	
+	<string name="new_network_location_title">New/edit samba server</string>
+	<string name="network_location_hint_text">IP Addr</string>
+	<string name="network_location">Server:</string>
+    <string name="network_location_example">Example:</string>
+    <string name="network_location_example_text">192.168.1.100</string>
+    <string name="network_location_user">Username:</string>
+    <string name="network_location_password">Password:</string>
+    <string name="network_location_or">Or</string>
+    <string name="network_location_anonymous">Anonymous</string>
+    <string name="network_location_test">Test</string>
+    <string name="network_location_cancel">Cancel</string>
+    <string name="network_location_ok">OK</string>
+    <string name="network_location_save">Remember password</string>
+    <string name="network_location_null">Error, server path is illegal</string>
+    <string name="username_null">Error, username is empty</string>
+    <string name="password_null">Error, password is empty</string>
+    <string name="network_location_exist">IP Address exist!</string>
+    
+    <string name="mount_success">mount success.</string>
+    <string name="mount_fail">mount fail.</string>
+    <string name="umount_success">umount success.</string>
+    <string name="umount_fail">umount fail.</string>
+    <string name="smb_del_error">Delete fail</string>
+    <string name="mount_exception">mount exception</string>
+   	<string name="umount_exception">umount exception</string>
+   	<string name="mountpoint_create_error">mount point create fail</string>
+   	<string name="mountpoint_del_error">mount point delete fail</string>
+   	<string name="mountpoint_lost">mount point not exist</string>
+   	<string name="shell_error">shell create fail</string>
+   	<string name="connect_timeout">connect timeout</string>
+   	<string name="mount_state_yes">Mount to:<xliff:g id="MOUNTPOINT">%1$s</xliff:g></string>
+    <string name="mount_state_no">No Mount</string>
+    
+    <string name="network_error_title">network error</string>
+    <string name="network_error_message">network is not available,please setting</string>
+    <string name="network_settings">Settings</string>
+    
+    <string name="host">Share folders On <xliff:g id="HOST">%1$s</xliff:g></string>
+	<string name="full">the space is full,copy files fail</string>
+	<string name="copy_interrupt">netWork is disconneted, copy is interrupted</string>
+	<string name="copy_get_file_count">Calculate the numbers of files</string>
+	<string name="copy_fail">Copy Failed</string>
+	<string name="ok">OK</string>
+	
+    <string name="del_error">fail</string>
+	<string name="picture_error">error</string>
+	<string name="always">Always</string>
+	<string name="select">Select</string>
+	<string name="copy_complete">Files copying are complete</string>
+	<string name="makedir_fail">Create File\'s Directory fail</string>
+	<string name="cannot_read">can not read</string>
+	<string name="cannot_write">can not write</string>
+	<string name="copy_background">Do you want to copy in background?</string>
+	<string name="background">Background</string>
+	<string name="foreground">Foreground</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	<com.android.rockchip.dlna.play.picture.PictureSpace 
+		android:id="@+id/pictureSpace"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <FrameLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center">
+			<ImageView
+				android:id="@+id/contentImage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center"/>
+		</FrameLayout>
+	</com.android.rockchip.dlna.play.picture.PictureSpace>
+	
+	<ImageView
+		android:id="@+id/pre_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|left"
+		android:paddingLeft="15dip"
+		android:src="@drawable/pre_images"
+		android:onClick="switchImage"
+		android:focusable="true"
+		/>
+	<ImageView
+		android:id="@+id/next_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|right"
+		android:paddingRight="15dip"
+		android:src="@drawable/next_images"
+		android:onClick="switchImage"
+		android:focusable="true"
+		/>
+		
+	<LinearLayout
+		android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+		<ProgressBar
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_gravity="center">
+		</ProgressBar>
+	</LinearLayout>
+</FrameLayout>

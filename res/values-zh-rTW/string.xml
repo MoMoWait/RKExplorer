@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, RockExplorer!</string>
+    <string name="app_name">資源管理器</string>
+    
+    <string name="str_home">主頁</string>
+    <string name="str_level_up">上層</string>
+    <string name="str_multi_choice">多選</string>
+    <string name="str_editor">編輯</string>
+    <string name="str_search">搜索</string>
+    <string name="str_folder_back">上個</string>
+    <string name="str_folder_next">下個</string>
+    <string name="str_exit">退出</string>
+    <string name="str_switch_windows">查看</string>
+    <string name="str_sort">排序</string>
+    <string name="str_settings">設置</string>
+    <string name="str_folder">文件夹</string>
+    
+    <string name="edit_copy">複制</string>
+    <string name="edit_delete">刪除</string>
+    <string name="edit_move">移動</string>
+    <string name="edit_paste">粘貼</string>
+    <string name="edit_rename">重命名</string>
+    <string name="edit_share">分享</string>
+     
+    <string name="str_del">刪除</string>    
+    <string name="str_sure_del">確認刪除</string>
+    <string name="str_sure_del_ask">您確認要刪除?</string>
+    
+    <string name="str_cancel">取消</string>
+    <string name="str_OK">確定</string>
+    
+    <!-- rename -->
+    <string name="str_rename_notice">注意！</string>
+    <string name="str_rename_file_exist">文件已經存在，是否要覆蓋？</string>
+    <string name="str_rename_text">更改文件名爲：</string>
+    
+    <!-- copying dialog -->
+    <string name="str_copyingtitle">請稍等...</string>
+	<string name="str_copyingcontext">拷貝中...</string>
+	<string name="str_copystop">停止拷貝</string>
+	<string name="str_source">來源: </string>
+    <string name="str_target">目標: </string>
+
+    <string name="str_delcontext">正在刪除文件...</string>   
+ 
+	<!-- copy recover dialog -->
+	<string name="copy_revocer_text">  已存在，是否覆蓋？</string>
+    <string name="copy_revocer_yes">覆蓋</string>
+    <string name="copy_revocer_no">跳過</string>
+    
+	<!-- opening dialog -->
+    <string name="str_openingtitle">請稍等...</string>
+	<string name="str_openingcontext">正在打開...</string>
+	<string name="str_openstop">停止打開</string>
+	
+	<!-- copy error -->
+    <string name="err_target_same">不能複制文件到相同路徑！</string>
+    <string name="err_target_child">目標路徑錯誤！</string>
+    
+	<string name="str_menu_app_manage">應用程序管理</string>
+	
+	<string name="str_sdcard_umount">SD卡已被卸載</string>
+
+        <string name="str_flash_umount">本地磁盤已被卸載</string>
+	
+	<string name="str_usb1_umount">可移動磁盤已被卸載</string>
+
+    <string name="str_flash_name">本地磁盤</string>
+    <string name="str_usb1_name">可移動磁盤</string>
+
+    <string name="rename_error">文件名中包含特殊字符，文件名不能被修改</string>
+    <string name="rename_fail">無法重命名</string>
+    <string name="err_not_free_space">沒有足夠的空間!</string>
+		<string name="error_invalid_path">非法的路徑</string>
+    <string name="str_isplaymusic">正在播放,請暫停後再刪除!</string>
+
+    <string name="noapp">沒有應用程序可以打開這個文件!</string>
+
+    <!-- DLNA -->
+    <string name="disconn_dlna_service">未連接上D L N A服務</string>
+    <string name="dlna_device_searching">正在搜尋設備...</string>
+    <string name="dlna_search_title">提示</string>
+    <string name="dlna_search_msg">未搜索到設備，是否重試?</string>
+    <string name="dlna_first_img">已經是第一張圖片</string>
+    <string name="dlna_last_img">已經是最後一張圖片</string>
+    
+    <!-- for smb -->
+	<string name="str_smb_name">網上鄰居</string>
+	<string name="str_smbmountpoint_name">Windows 共享</string>
+	<string name="str_menu_cifs_manager">Cifs管理</string>
+	<string name="newSmb">通過"菜單->Cifs管理"，添加刪除Windows共享</string>
+	
+	<string name="write_error">無寫權限</string>
+	<string name="read_error">讀取失敗</string>
+	<string name="smb_read_denied">請檢測此共享目錄是否存在或可讀?</string>
+	<string name="read_denied">請檢測此目錄是否存在或可讀?</string>
+	<string name="smb_mountpoint_error">遠程共享服務無法獲取</string>
+	<string name="smb_host_error">無法連接到主機:<xliff:g id="IP">%1$s</xliff:g></string>
+	<string name="network_error">網絡斷開</string>
+	
+	<string name="smb_mount_point"><xliff:g id="HOST">%1$s</xliff:g>@<xliff:g id="FILE">%2$s</xliff:g></string>
+	
+	<string name="newOrscan">新建</string>
+	<string name="newsmb">新建</string>
+	<string name="scansmb">搜索</string>
+	<string name="scanningSmbTitle">搜索....</string>
+	<string name="scanningSmbMessage">搜索網絡中共享....</string>
+	
+	<string name="smb_edit_title">操作</string>
+	<string name="smb_mount">挂載</string>
+	<string name="smb_umount">卸載</string>
+	<string name="smb_mounting">正在挂載中,請稍等...</string>
+	
+	<string name="smb_search">搜索</string>
+	<string name="smb_new">新建</string>
+	<string name="smb_edit">編輯</string>
+	<string name="smb_delete">刪除</string>
+	
+	<string name="login_fail_title">登錄失敗!</string>
+    <string name="relogin_confirm_message">用戶名/密碼不對?</string>
+    <string name="relogin_title">重新登錄</string>
+    <string name="openning">正在載入中,請稍等...</string>
+	
+	<string name="new_network_location_title">新建/編輯共享</string>
+	<string name="network_location_hint_text">IP 地址</string>
+	<string name="network_location">服務地址:</string>
+    <string name="network_location_example">例如:</string>
+    <string name="network_location_example_text">192.168.1.100</string>
+    <string name="network_location_user">用戶名:</string>
+    <string name="network_location_password">密碼:</string>
+    <string name="network_location_or">Or</string>
+    <string name="network_location_anonymous">匿名</string>
+    <string name="network_location_test">測試</string>
+    <string name="network_location_cancel">取消</string>
+    <string name="network_location_ok">確定</string>
+    <string name="network_location_save">記住密碼</string>
+    <string name="network_location_null">對不起,共享地址不合法</string>
+    <string name="username_null">對不起,用戶名是空的</string>
+    <string name="password_null">對不起,密碼是空的</string>
+    <string name="network_location_exist">服務地址已存在</string>
+    
+    <string name="mount_success">挂載成功.</string>
+    <string name="umount_success">卸載成功.</string>
+    <string name="mount_fail">挂載失敗.</string>
+    <string name="umount_fail">卸載失敗.</string>
+    <string name="smb_del_error">刪除失敗</string>
+   	<string name="mount_exception">挂載過程出現異常</string>
+   	<string name="umount_exception">卸載過程出現異常</string>
+   	<string name="mountpoint_create_error">挂載點創建失敗</string>
+   	<string name="mountpoint_del_error">挂載點刪除失敗</string>
+   	<string name="mountpoint_lost">挂載點不存在</string>
+   	<string name="shell_error">腳本創建失敗</string>
+   	<string name="connect_timeout">連接超時</string>
+   	<string name="mount_state_yes">已挂載至:<xliff:g id="MOUNTPOINT">%1$s</xliff:g></string>
+    <string name="mount_state_no">未挂載</string>
+    
+    <string name="network_error_title">無網絡連接</string>
+    <string name="network_error_message">網絡未連上，請設置</string>
+    <string name="network_settings">設置</string>
+    
+    <string name="host">在<xliff:g id="HOST">%1$s</xliff:g>上的共享文件夾</string>
+    
+    
+    <string name="filename">文件名：</string>
+	<string name="filesize">文件大小：</string>
+	<string name="fileauthority ">權限：</string>
+	<string name="filemime">文件類型：</string>
+	<string name="fileposition">路徑：</string>
+	<string name="filetime">修改時間：</string>
+	<string name="filedetails">詳細信息</string>
+    <string name="fileconfrim">確定</string>
+    <string name="str_sata_not_mouted">沒有挂載SATA</string>
+    <string name="full">空間已滿，拷貝文件失敗</string>
+	<string name="copy_interrupt">網絡連接斷開，拷貝中斷</string>
+	<string name="copy_get_file_count">計算文件的數量</string>
+	<string name="copy_fail">拷貝失敗</string>
+	<string name="ok">確定</string>
+	<string name="del_error">失敗</string>
+	<string name="picture_error">錯誤</string>
+</resources>

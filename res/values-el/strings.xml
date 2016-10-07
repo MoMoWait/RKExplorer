@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Explorer!</string>
+    <string name="app_name">Εξερευνητ??</string>
+
+    <string name="str_home">Home</string>
+    <string name="str_level_up">LevelUp</string>
+    <string name="str_multi_choice">Multi</string>
+    <string name="str_editor">Editor</string>
+    <string name="str_search">Search</string>
+    <string name="str_folder_back">Back</string>
+    <string name="str_folder_next">Next</string>
+    <string name="str_switch_windows">Switch</string>
+    <string name="str_sort">Sort</string>
+    <string name="str_settings">Setting</string>
+    <string name="str_folder">folder</string>
+    
+    <string name="edit_copy">Αντ?τυπο</string>
+    <string name="edit_delete">Διαγραφ?</string>
+    <string name="edit_move">Κ?νηση</string>
+    <string name="edit_paste">Ζυμαρικ?</string>
+    <string name="edit_rename">Μετονομασ?α</string>
+    
+    <string name="str_del">Διαγραφ?</string>
+    <string name="str_sure_del">Επιβεβαι?σετε τη διαγραφ?</string>
+    <string name="str_sure_del_ask">Ε?σαι σ?γουρο?;</string>
+    
+    <string name="str_cancel">κυρο</string>
+    <string name="str_OK">Καλ?</string>
+    
+    <!-- rename -->
+    <string name="str_rename_notice">Προσοχ?!</string>
+    <string name="str_rename_file_exist">Το ?νομα αρχε?ου υπ?ρχει ?δη. Μετονομασ?α αρχε?ων;</string>
+    
+    <!-- copying dialog -->
+    <string name="str_copyingtitle">Παρακαλ? περιμ?νετε …</string>
+	<string name="str_copyingcontext">Αντιγραφ? …</string>
+	<string name="str_copystop">Σταματ?στε την αντιγραφ?</string>
+	<string name="str_source">Πηγ?:</string>
+    <string name="str_target">Target:</string>
+    
+    <!-- copy error -->
+    <string name="err_target_same">Δεν ε?ναι δυνατ? η αντιγραφ? του αρχε?ου στην ?δια θ?ση.</string>
+    <string name="err_target_child">Σφ?λμα στην πορε?α στ?χο?</string>
+    
+    <!-- copy recover dialog -->
+	<string name="copy_revocer_text">  Το ?νομα αρχε?ου υπ?ρχει ?δη. Θ?λετε να αντικατασταθε?;</string>
+    <string name="copy_revocer_yes">Γρ?φοντα? π?νω απ? …</string>
+    <string name="copy_revocer_no">κυρο</string>
+    
+    <!-- opening dialog -->
+    <string name="str_openingtitle">Παρακαλ? περιμ?νετε...</string>
+	<string name="str_openingcontext">Εγκα?νια...</string>
+	<string name="str_openstop">νοιγμα σταμ?τησε</string>
+    
+    <string name="str_rename_text">Μετονομασ?α σε:</string>
+    
+    <string name="str_menu_app_manage">Διαχειριστε?τε τι? εφαρμογ??</string>
+    
+    <string name="str_sdcard_umount">SD ?χει unmounted</string>
+    
+    <string name="str_usb1_umount">Η συσκευ? USB ?χει unmounted</string>
+    
+    <string name="str_flash_name">Εσωτερικ? μν?μη</string>
+    
+    <string name="str_usb1_name">U S B</string>
+    
+    <string name="str_sdcard_name">Κ?ρτα SD</string>
+    
+    <string name="rename_error">νομα αρχε?ου περιλαμβ?νει ειδικο?? χαρακτ?ρε?, το αρχε?ο δεν τροποποιο?νται ?ντα?</string>
+    <string name="err_not_free_space">There is not enough space!</string>
+	<string name="filename">名字：</string>
+	<string name="filesize">大小：</string>
+	<string name="fileauthority ">权限：</string>
+	<string name="filemime">类型：</string>
+	<string name="fileposition">位置：</string>
+	<string name="filetime">修改时间：</string>
+	<string name="filedetails">文件详情</string>
+<string name="fileconfrim">确认</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="40dip"
+    android:background="@drawable/popup_win1"
+    android:scaleType="fitXY"
+    android:orientation="vertical">
+    
+	<LinearLayout
+	    android:id="@+id/edit_copy"	
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		 
+    	<ImageView
+    		android:background="@drawable/icon_copy" 
+	    	style="@style/editor_layout_ImageView"/>		
+	    <TextView
+			android:id="@+id/edit_copy_text"	    
+	        android:text="@string/edit_copy"
+	    	style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    
+    <LinearLayout
+	    android:id="@+id/edit_delete"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/icon_delete" 
+	    	style="@style/editor_layout_ImageView"/>	
+	    <TextView 
+			android:id="@+id/edit_delete_text"
+	        android:text="@string/edit_delete"	
+			android:layout_height="wrap_content"			
+			android:layout_width="fill_parent"			
+			android:textSize="20dip"			
+			android:textColor="#FFF"			
+			android:gravity="left"		
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    
+    <LinearLayout
+	    android:id="@+id/edit_move"	
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/icon_move" 
+	    	style="@style/editor_layout_ImageView"/>	
+	    <TextView 
+			android:id="@+id/edit_move_text"
+	        android:text="@string/edit_move"
+			android:layout_height="wrap_content"			
+			android:layout_width="fill_parent"			
+			android:textSize="20dip"			
+			android:textColor="#FFF"			
+			android:gravity="left"		
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    	
+    <LinearLayout
+	    android:id="@+id/edit_paste"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/icon_paste" 
+	    	style="@style/editor_layout_ImageView"/>	
+		<TextView 
+			android:id="@+id/edit_paste_text"
+	        android:text="@string/edit_paste"
+			android:layout_height="wrap_content"			
+			android:layout_width="fill_parent"			
+			android:textSize="20dip"			
+			android:textColor="#FFF"			
+			android:gravity="left"		
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    	
+    <LinearLayout
+	    android:id="@+id/edit_rename"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/icon_rename" 
+	    	style="@style/editor_layout_ImageView"/>	
+		<TextView 
+			android:id="@+id/edit_rename_text"
+	        android:text="@string/edit_rename"
+			android:layout_height="wrap_content"			
+			android:layout_width="fill_parent"			
+			android:textSize="20dip"			
+			android:textColor="#FFF"			
+			android:gravity="left"		
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    <ImageView style="@style/editor_layout_Line"/>  
+    
+    <LinearLayout
+	    android:id="@+id/edit_share"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/icon_share" 
+	    	style="@style/editor_layout_ImageView"/>	
+		<TextView 
+			android:id="@+id/edit_share_text"
+	        android:text="@string/edit_share"
+			android:layout_height="wrap_content"			
+			android:layout_width="fill_parent"			
+			android:textSize="20dip"			
+			android:textColor="#FFF"			
+			android:gravity="left"		
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+</LinearLayout>

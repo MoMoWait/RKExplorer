@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.rockchip"
+      android:sharedUserId="android.uid.system"
+      android:versionCode="5" android:versionName="5.0_onshare_copybackground">
+	<supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true"/> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-sdk 
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".RockExplorer"
+                  android:label="@string/app_name"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:windowSoftInputMode="stateUnspecified|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+		<receiver android:name="NetWorkReceiver">             
+			<intent-filter>                 
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>            
+			</intent-filter>         
+		</receiver>
+		<service android:name=".CopyService" android:process=":remote" android:exported="false">
+			<intent-filter> 				
+				<action android:name="com.intent.CopyService"/> 				
+				<category android:name="android.intent.category.DEFAULT" />			
+			</intent-filter> 		
+		</service>
+    </application>
+
+</manifest> 

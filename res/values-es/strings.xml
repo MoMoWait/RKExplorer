@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Explorador!</string>
+    <string name="app_name">Explorador</string>
+    
+    <string name="str_home">Raiz</string>
+    <string name="str_level_up">Subir</string>
+    <string name="str_multi_choice">Multi</string>
+    <string name="str_editor">Editor</string>
+    <string name="str_search">Buscar</string>
+    <string name="str_folder_back">Atrás</string>
+    <string name="str_folder_next">Siguiente</string>
+    <string name="str_switch_windows">Switch</string>
+    <string name="str_sort">Ordenar</string>
+    <string name="str_settings">Ajustes</string>
+    
+    <string name="edit_copy">Copiar</string>
+    <string name="edit_delete">Eliminar</string>
+    <string name="edit_move">Mover</string>
+    <string name="edit_paste">Pegar</string>
+    <string name="edit_rename">Renombrar</string>
+    
+    <string name="str_del">Eliminar</string>
+    <string name="str_sure_del">Confirmar  borrado </string>
+    <string name="str_sure_del_ask">Esta seguro de  borrar</string>
+    
+    <string name="str_cancel">Cancelar</string>
+    <string name="str_OK">OK</string>
+    
+    <!-- rename -->
+    <string name="str_rename_notice">Atención!</string>
+    <string name="str_rename_file_exist">El nombre de archivo ya existe, ?desea sobreescribir?</string>
+    
+    <!-- copying dialog -->
+    <string name="str_copyingtitle">Por favor, espere</string>
+	<string name="str_copyingcontext">Copiando...</string>
+	<string name="str_copystop">Parar copiado</string>
+	<string name="str_source">Fuente:</string>
+    <string name="str_target">Destino:</string>
+
+    <string name="str_delcontext">Borrando</string>   
+ 
+    <!-- copy error -->
+    <string name="err_target_same">No se puede copiar el archivo en la misma ruta</string>
+    <string name="err_target_child">La ruta destino es errónea</string>
+    
+    <!-- copy recover dialog -->
+	<string name="copy_revocer_text">  Existe, ?esta seguro de querer recuperar??</string>
+    <string name="copy_revocer_yes">Recuperar</string>
+    <string name="copy_revocer_no">Cancelar</string>
+    
+    <!-- opening dialog -->
+    <string name="str_openingtitle">Por favor, espere</string>
+	<string name="str_openingcontext">Abriendo…</string>
+	<string name="str_openstop">Parar apertura</string>
+    
+    <string name="str_rename_text">Renombrar:</string>
+    
+    <string name="str_menu_app_manage">Administrar aplicaciones</string>
+    
+    <string name="str_sdcard_umount">TF se ha extraído</string>
+
+    <string name="str_flash_umount">Mem. Interna has been unmounted</string>
+    
+    <string name="str_usb1_umount">Disco externo ha sido extraido</string>
+    
+    <string name="str_flash_name">Mem. Interna</string>
+    
+    <string name="str_usb1_name">Disco extraible</string>
+    
+    <string name="str_sdcard_name">TF Card</string>
+    
+    <string name="rename_error">El nombre de archivo tiene caracteres especiales </string>
+    <string name="err_not_free_space">No hay espacio suficiente!</string>
+    <string name="str_isplaymusic">Reproduciendo música, no se puede borrar archivos. Pause la reproducción y después borre el archivo deseado.</string>    
+	<string name="filename">名字：</string>
+	<string name="filesize">大小：</string>
+	<string name="fileauthority ">权限：</string>
+	<string name="filemime">类型：</string>
+	<string name="fileposition">位置：</string>
+	<string name="filetime">修改时间：</string>
+	<string name="filedetails">文件详情</string>
+<string name="fileconfrim">确认</string>
+
+    <string name="noapp">No existe aplicación para abrir este archivo</string>
+
+</resources>
